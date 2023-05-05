@@ -12,11 +12,14 @@ jobs:
       - name: Checkout main
         uses: actions/checkout@v2
 
+      - name: install mkdocs
+        run: echo 'mkdocs' > requirements.txt
+
       - name: Deploy docs
         uses: mhausenblas/mkdocs-deploy-gh-pages@nomaterial
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CUSTOM_DOMAIN: optionaldomain.com
-          CONFIG_FILE: folder/mkdocs.yml
+          CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
-          REQUIREMENTS: folder/requirements.txt
+          REQUIREMENTS: requirements.txt
