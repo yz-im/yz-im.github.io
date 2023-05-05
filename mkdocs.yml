@@ -1,4 +1,6 @@
 site_name: Yz-im
+site_author: terry
+repo_url: https://github.com/yz-im
 nav:
   - Home: index.md
   - Documentation: docs.md
