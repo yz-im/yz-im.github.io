@@ -1,4 +1,5 @@
 site_name: Yz-im
 nav:
   - Home: index.md
+  - documentation: docs.md
   - About: about.md
