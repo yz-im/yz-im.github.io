@@ -10,4 +10,6 @@ nav:
     - web: demo/web.md
     - mac: demo/mac.md
   - Polar: polar/intro.md
+  - Toolkit:
+    - default: toolkit/default.md
   - About: about.md
