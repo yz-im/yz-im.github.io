@@ -4,6 +4,9 @@ repo_url: https://github.com/yz-im
 nav:
   - Home: index.md
   - Documentation: 
-    - server: server/server-docs.md
-    - web: web/web-docs.md
+    - server: documentation/server.md
+    - web: documentation/web.md
+  - Demo:
+    - web: demo/web.md
+    - mac: demo/mac.md
   - About: about.md
