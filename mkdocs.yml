@@ -9,4 +9,5 @@ nav:
   - Demo:
     - web: demo/web.md
     - mac: demo/mac.md
+  - Polar: polar/intro.md
   - About: about.md
