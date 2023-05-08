@@ -13,6 +13,8 @@ nav:
   - Cli:
     - intro: cli/intro.md
     - reference: cli/reference.md
+  - Log:
+    - intro: log/intro.md
   - Toolkit:
     - default: toolkit/default.md
   - About: about.md
