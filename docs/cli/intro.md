@@ -1,4 +1,4 @@
-# Cli intro
+# Cli
 
 Cli一个帮助用户快速建立命令行程序的框架
 
@@ -29,4 +29,18 @@ func main() {
 	app := cli.NewApp()
 	fmt.Println("hello, this is cli app:", app)
 }
+```
+## api-reference
+### App
+```go
+// 新建一个带option的App
+func NewApp() *App
+```
+```go
+// 新建一个默认App
+func Default() *App
+```
+```go
+// App run
+func (a *App) Run()
 ```

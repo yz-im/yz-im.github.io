@@ -12,7 +12,7 @@ nav:
   - Polar: polar/intro.md
   - Cli:
     - intro: cli/intro.md
-    - reference: cli/reference.md
+    - api-reference: cli/reference.md
   - Log:
     - intro: log/intro.md
   - Toolkit:
