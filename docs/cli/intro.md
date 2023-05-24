@@ -25,9 +25,22 @@ import (
 	"github.com/yz-im/cli"
 )
 
+func run() cli.RunFunc {
+	return func(basename string) error {
+		return LaunchMyBiz()
+	}
+}
+
+func LaunchMyBiz() error {
+	fmt.Println("biz is launched !")
+	return nil
+}
+
 func main() {
-	app := cli.NewApp()
-	fmt.Println("hello, this is cli app:", app)
+	app := cli.NewApp(
+		"my app",
+		app.WithRunc(run())
+	).Run()
 }
 ```
 ## api-reference
