@@ -39,7 +39,7 @@ func LaunchMyBiz() error {
 func main() {
 	app := cli.NewApp(
 		"my app",
-		app.WithRunc(run())
+		app.WithRunFunc(run())
 	).Run()
 }
 ```
